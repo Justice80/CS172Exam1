@@ -12,6 +12,7 @@ private:
 	Event scheduledEvents[12];
 	bool validTime(int time);
 public:
+	Venue();
 	void addEvent(int time, string name);
 	Event findEvent(int time);
 	Event findEvent(string name);
